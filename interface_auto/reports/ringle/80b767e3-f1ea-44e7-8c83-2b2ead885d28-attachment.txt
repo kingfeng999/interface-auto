@@ -1,0 +1,5 @@
+INFO     root:apiGetBankList.py:22 -------------- 开始获取银行卡列表接口的 URL 地址 ---------------
+INFO     root:apiGetBankList.py:26 获取银行卡列表接口的 URL 地址是：https://api3.kouling.cn:14000/ringle/pay/121/
+INFO     root:apiGetBankList.py:39 准备发起获取银行卡列表接口的请求，请求的 json 参数是：{'card_kind': 'PAY', 'token': '82598f22cbdbabbd6d44569a6c6f39a6', 'uid': '1LtqNXWMmzvd4GGBsySC3fAfs7qsvrMiNJ'}，header 信息是：{'Content-Type': 'application/json', 'device': '1', 'version': '2.17.0'}
+INFO     root:apiGetBankList.py:42 获取的响应值是：{'data': [{'bank_logo': 'https://cdn2.ringleai.com/icon/ngaH2KGkmVC7aFnk.png', 'bank_name': '中国银行', 'bg_color': 'FFD25558', 'bind_date': 1609247316, 'card_kind': 'PAY', 'card_no': '************0011', 'card_type': 'DC', 'is_withdraw': False, 'uuid': '1a2c90cf7ef1437391b19b838730fb0d'}], 'ok': True, 'reason': ''}
+INFO     root:apiGetBankList.py:47 返回 uuid 为：1a2c90cf7ef1437391b19b838730fb0d

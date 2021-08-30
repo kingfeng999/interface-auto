@@ -1,0 +1,6 @@
+INFO     root:apiLogout.py:16 ---------------- 开始获取退出登录接口的 URL -----------------
+INFO     root:apiLogout.py:18 退出登录接口的 URL 是：https://api3.kouling.cn:14000/ringle/user/115/
+INFO     root:apiLogout.py:26 准备发起退出登录接口的请求，请求参数是：{'token': '82598f22cbdbabbd6d44569a6c6f39a6', 'uid': '1LtqNXWMmzvd4GGBsySC3fAfs7qsvrMiNJ'}，header 信息是：{'Content-Type': 'application/json', 'device': '1', 'version': '2.17.0'}
+INFO     root:apiLogout.py:29 退出登录获取的响应值是：{'ok': True, 'reason': '', 'message': '', 'data': []}
+INFO     root:test_logout.py:30 登录接口返回数据类型是：<class 'dict'>
+INFO     root:test_logout.py:31 登录接口返回数据是：{'ok': True, 'reason': '', 'message': '', 'data': []}

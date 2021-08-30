@@ -1,0 +1,169 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "用户能正常登录",
+        "uid" : "944b488d93177aaa",
+        "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627113360500,
+          "stop" : 1627113360777,
+          "duration" : 277
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cc0ea573530a3fefba2a1fc590840070"
+    }, {
+      "name" : "test_getbanklist",
+      "children" : [ {
+        "name" : "用户能正常获取",
+        "uid" : "1d85df4a43335282",
+        "parentUid" : "586729a4dba6ce252ea53f2ba09f5633",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627113360779,
+          "stop" : 1627113360828,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "586729a4dba6ce252ea53f2ba09f5633"
+    }, {
+      "name" : "test_unionPayCard",
+      "children" : [ {
+        "name" : "用户能正常充值",
+        "uid" : "7f6c259260f29bbd",
+        "parentUid" : "2d65f8ae9d7a9f46d08e887924288cef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627113360831,
+          "stop" : 1627113361422,
+          "duration" : 591
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d65f8ae9d7a9f46d08e887924288cef"
+    }, {
+      "name" : "test_sendMessageCode",
+      "children" : [ {
+        "name" : "用户能正常接收验证码",
+        "uid" : "e22cd7884f4c45aa",
+        "parentUid" : "27ba676799ec234fbe5cf930c2e17184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627113361424,
+          "stop" : 1627113361846,
+          "duration" : 422
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27ba676799ec234fbe5cf930c2e17184"
+    }, {
+      "name" : "test_payStatus",
+      "children" : [ {
+        "name" : "用户支付验证码状态正确",
+        "uid" : "16fdbf2c5905aba6",
+        "parentUid" : "f97a667330af3c13b745a86f67d163c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627113361848,
+          "stop" : 1627113361891,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f97a667330af3c13b745a86f67d163c1"
+    }, {
+      "name" : "test_getCompanyInfo",
+      "children" : [ {
+        "name" : "用户能正常获取公司信息",
+        "uid" : "e201351f51e141a3",
+        "parentUid" : "0c3b69a3d804ba90598a63a314b95a2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627113361893,
+          "stop" : 1627113361990,
+          "duration" : 97
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c3b69a3d804ba90598a63a314b95a2f"
+    }, {
+      "name" : "test_addJob",
+      "children" : [ {
+        "name" : "能正常发布标准极速岗位",
+        "uid" : "adc0cf5bfca29075",
+        "parentUid" : "ac93e141bc2fdf65b054b97d720029ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627113361992,
+          "stop" : 1627113362092,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac93e141bc2fdf65b054b97d720029ca"
+    }, {
+      "name" : "test_registered",
+      "children" : [ {
+        "name" : "用户能正常注册",
+        "uid" : "a26cb1f605e4cb8c",
+        "parentUid" : "b9720eafb170d871818b2cdd68954a00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627113362241,
+          "stop" : 1627113362436,
+          "duration" : 195
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b9720eafb170d871818b2cdd68954a00"
+    }, {
+      "name" : "test_writeSmsMessage",
+      "children" : [ {
+        "name" : "用户能输入验证码验证正确",
+        "uid" : "edd4721eec128177",
+        "parentUid" : "93f3b8b286272c6243f002365609fb83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627113362438,
+          "stop" : 1627113364125,
+          "duration" : 1687
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "93f3b8b286272c6243f002365609fb83"
+    }, {
+      "name" : "test_logout",
+      "children" : [ {
+        "name" : "用户能正常退出登录",
+        "uid" : "ca34a53f061d2eaa",
+        "parentUid" : "878f3292167e9626252a7bdfc90ccee5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627113364130,
+          "stop" : 1627113364170,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "878f3292167e9626252a7bdfc90ccee5"
+    } ],
+    "uid" : "559e15d0a5469c40d1629e36b5ae40ea"
+  } ]
+}

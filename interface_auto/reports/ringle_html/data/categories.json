@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False == True\n  +False\n  -True",
+      "children" : [ {
+        "name" : "能正常发布标准极速岗位",
+        "uid" : "adc0cf5bfca29075",
+        "parentUid" : "f19633ec40fb27aad0491849b52455ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627113361992,
+          "stop" : 1627113362092,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f19633ec40fb27aad0491849b52455ff"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
