@@ -1,0 +1,102 @@
+{
+  "uid" : "959a644cf2e91f2",
+  "name" : "用户能正常获取公司信息",
+  "fullName" : "testcase.test_getCompanyInfo.TestGetCompanyInfo#test_get_company_info",
+  "historyId" : "e9f4b8a3552bdbe5a46a402a5d7b3272",
+  "time" : {
+    "start" : 1630488910398,
+    "stop" : 1630488910457,
+    "duration" : 59
+  },
+  "description" : "\n            获取公司信息测试用例\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>        获取公司信息测试用例\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1630488909953,
+      "stop" : 1630488910024,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n            获取公司信息测试用例\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7ee1749faf652166",
+      "name" : "log",
+      "source" : "7ee1749faf652166.txt",
+      "type" : "text/plain",
+      "size" : 875
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取公司信息验证场景"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "获取公司信息功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_getCompanyInfo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGetCompanyInfo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NUIQLJ5"
+  }, {
+    "name" : "thread",
+    "value" : "17028-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_getCompanyInfo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "--> 如果执行失败，这里可以提交 Bug 到禅道",
+    "url" : "https://pms.kouling.cn/index.php?m=bug&f=browse&productID=1",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "959a644cf2e91f2.json",
+  "parameterValues" : [ ]
+}

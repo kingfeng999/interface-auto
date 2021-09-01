@@ -1,0 +1,4 @@
+INFO     root:apiPayStatus.py:21 ---------------开始获取查询支付状态接口的 URL 地址---------------
+INFO     root:apiPayStatus.py:23 查询支付状态接口的 URL 地址是：
+INFO     root:apiPayStatus.py:33 准备发起发送支付短信接口的请求，请求的 json 参数是：{'token': '838d4ae5e6707d7cc22c110e29d37e1a', 'uid': '1LtqNXWMmzvd4GGBsySC3fAfs7qsvrMiNJ', 'orderid': None}，header 信息是：{'Content-Type': 'application/json', 'device': '1', 'version': '2.28.0'}
+INFO     root:apiPayStatus.py:36 获取的响应值是：<Response [200]>
