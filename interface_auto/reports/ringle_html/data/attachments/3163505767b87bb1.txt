@@ -1,5 +1,0 @@
-INFO     root:apiSendMessageCode.py:22 --------------开始获取发送支付短信接口的 URL 地址：---------------
-INFO     root:apiSendMessageCode.py:24 发送支付短信接口的 URL 地址是：https://api3.kouling.cn:14000/ringle/pay/126/
-INFO     root:apiSendMessageCode.py:27 传入的 tx_id 为：None
-INFO     root:apiSendMessageCode.py:34 准备发起发送支付短信接口的请求，请求的 json 参数是：{'token': '838d4ae5e6707d7cc22c110e29d37e1a', 'tx_id': None, 'uid': '1LtqNXWMmzvd4GGBsySC3fAfs7qsvrMiNJ'}，header 信息是：{'Content-Type': 'application/json', 'device': '1', 'version': '2.28.0'}
-INFO     root:apiSendMessageCode.py:37 获取的响应值是：{'data': [], 'message': '支付功能升级中，如有不便，敬请谅解。', 'ok': False, 'reason': 'ERR_131'}
