@@ -1,0 +1,4 @@
+INFO     root:apiUnionPayCard.py:22 --------------开始获取银联卡充值下单接口的 URL 地址 --------------
+INFO     root:apiUnionPayCard.py:24 银联卡充值下单接口的地址是：https://api3.kouling.cn:14000/ringle/pay/100/
+INFO     root:apiUnionPayCard.py:48 准备发起银联卡充值接口的请求，请求的 json 参数是：{'appid': '', 'card_uuid': None, 'channelid': 4, 'cnt': 1, 'device_info': '6353', 'goods': '10000', 'mchid': '', 'noncestr': '654315315', 'price': 300000, 'sign': '35321351315132', 'token': '5580eaa52ce0a10da91f23b12ce1b34b', 'total_free': 300000, 'type': 6, 'uid': '1LtqNXWMmzvd4GGBsySC3fAfs7qsvrMiNJ'}，header 信息是：{'Content-Type': 'application/json', 'device': '1', 'version': '2.28.0'}
+INFO     root:apiUnionPayCard.py:51 获取的响应值是：{'data': [], 'message': '支付功能升级中，如有不便，敬请谅解。', 'ok': False, 'reason': 'ERR_131'}

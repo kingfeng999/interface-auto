@@ -1,0 +1,85 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False == True\n  +False\n  -True",
+      "children" : [ {
+        "name" : "用户能正常获取",
+        "uid" : "7a2e88d279fcec8a",
+        "parentUid" : "f19633ec40fb27aad0491849b52455ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630490468671,
+          "stop" : 1630490468712,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用户能正常充值",
+        "uid" : "bed8d7002c6796",
+        "parentUid" : "f19633ec40fb27aad0491849b52455ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630490468853,
+          "stop" : 1630490468888,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用户能正常接收验证码",
+        "uid" : "9b6f3305694eea73",
+        "parentUid" : "f19633ec40fb27aad0491849b52455ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630490468892,
+          "stop" : 1630490468941,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用户支付验证码状态正确",
+        "uid" : "921955a0edcff917",
+        "parentUid" : "f19633ec40fb27aad0491849b52455ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630490468946,
+          "stop" : 1630490468981,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "能正常发布标准极速岗位",
+        "uid" : "b85027cf47ed0180",
+        "parentUid" : "f19633ec40fb27aad0491849b52455ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630490469085,
+          "stop" : 1630490469145,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用户能输入验证码验证正确",
+        "uid" : "7bcc212cb3bacb8e",
+        "parentUid" : "f19633ec40fb27aad0491849b52455ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630490469283,
+          "stop" : 1630490469845,
+          "duration" : 562
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f19633ec40fb27aad0491849b52455ff"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

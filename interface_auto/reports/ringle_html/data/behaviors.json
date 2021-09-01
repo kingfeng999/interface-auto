@@ -1,0 +1,205 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录功能",
+    "children" : [ {
+      "name" : "正常登录场景",
+      "children" : [ {
+        "name" : "用户能正常登录",
+        "uid" : "3b78f87272678aff",
+        "parentUid" : "b270936b4e6d24bcd8459d84ad61dfc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630490468597,
+          "stop" : 1630490468669,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b270936b4e6d24bcd8459d84ad61dfc2"
+    } ],
+    "uid" : "76c1a89e029bf2806c0ddb06b8505b0b"
+  }, {
+    "name" : "获取银行卡列表功能",
+    "children" : [ {
+      "name" : "正常获取场景",
+      "children" : [ {
+        "name" : "用户能正常获取",
+        "uid" : "7a2e88d279fcec8a",
+        "parentUid" : "476c7789f7c39f2b24a0ce291ffb5960",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630490468671,
+          "stop" : 1630490468712,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "476c7789f7c39f2b24a0ce291ffb5960"
+    } ],
+    "uid" : "c20352374e7b1e2ea6bb369b545fda9e"
+  }, {
+    "name" : "银联卡充值功能",
+    "children" : [ {
+      "name" : "正常充值场景",
+      "children" : [ {
+        "name" : "用户能正常充值",
+        "uid" : "bed8d7002c6796",
+        "parentUid" : "ec4f5f7d05640deea534cdc098f8695e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630490468853,
+          "stop" : 1630490468888,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec4f5f7d05640deea534cdc098f8695e"
+    } ],
+    "uid" : "ff902f5780bb491d68bff75dfd880c98"
+  }, {
+    "name" : "支付验证码发送功能",
+    "children" : [ {
+      "name" : "正常发送场景",
+      "children" : [ {
+        "name" : "用户能正常接收验证码",
+        "uid" : "9b6f3305694eea73",
+        "parentUid" : "83a061682a35a64653c4ada7517640b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630490468892,
+          "stop" : 1630490468941,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "83a061682a35a64653c4ada7517640b4"
+    } ],
+    "uid" : "28975732ee122786268067cb8ba78af7"
+  }, {
+    "name" : "查询支付状态功能",
+    "children" : [ {
+      "name" : "查询支付验证码场景",
+      "children" : [ {
+        "name" : "用户支付验证码状态正确",
+        "uid" : "921955a0edcff917",
+        "parentUid" : "d204af9b36275e53a9a70a2a2f1b252e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630490468946,
+          "stop" : 1630490468981,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d204af9b36275e53a9a70a2a2f1b252e"
+    } ],
+    "uid" : "2f1cebdaa5f57422074acbd937c7fef4"
+  }, {
+    "name" : "获取公司信息功能",
+    "children" : [ {
+      "name" : "获取公司信息验证场景",
+      "children" : [ {
+        "name" : "用户能正常获取公司信息",
+        "uid" : "bcbc75aa01870c34",
+        "parentUid" : "6adc02bec9720b1edd64bbaf61a2280e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630490468988,
+          "stop" : 1630490469082,
+          "duration" : 94
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6adc02bec9720b1edd64bbaf61a2280e"
+    } ],
+    "uid" : "5552f9dcf460799f084cb21e8b5b85ee"
+  }, {
+    "name" : "发布岗位信息功能",
+    "children" : [ {
+      "name" : "发布标准极速岗场景",
+      "children" : [ {
+        "name" : "能正常发布标准极速岗位",
+        "uid" : "b85027cf47ed0180",
+        "parentUid" : "ece65323bce116cb27ceb3e300b1ad6b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630490469085,
+          "stop" : 1630490469145,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ece65323bce116cb27ceb3e300b1ad6b"
+    } ],
+    "uid" : "383b86aaf163521f8c4c5da3730aafad"
+  }, {
+    "name" : "注册功能",
+    "children" : [ {
+      "name" : "用户注册正常",
+      "children" : [ {
+        "name" : "用户能正常注册",
+        "uid" : "c7fa3521f3159d67",
+        "parentUid" : "5d53850b0975bd1a5973c4b4aab2b81a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630490469149,
+          "stop" : 1630490469279,
+          "duration" : 130
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d53850b0975bd1a5973c4b4aab2b81a"
+    } ],
+    "uid" : "85ff1f938d503d997bc4540a25196a1f"
+  }, {
+    "name" : "支付验证码验证功能",
+    "children" : [ {
+      "name" : "支付验证码验证场景",
+      "children" : [ {
+        "name" : "用户能输入验证码验证正确",
+        "uid" : "7bcc212cb3bacb8e",
+        "parentUid" : "fe40e18adb14729969e20f8f9dbd2a89",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630490469283,
+          "stop" : 1630490469845,
+          "duration" : 562
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe40e18adb14729969e20f8f9dbd2a89"
+    } ],
+    "uid" : "79858115981643509a39f17efff7f317"
+  }, {
+    "name" : "退出功能",
+    "children" : [ {
+      "name" : "正常退出场景",
+      "children" : [ {
+        "name" : "用户能正常退出登录",
+        "uid" : "d55f7829caa901ce",
+        "parentUid" : "c36e5613cfb1e38f753ce786f9bad341",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630490469865,
+          "stop" : 1630490469913,
+          "duration" : 48
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c36e5613cfb1e38f753ce786f9bad341"
+    } ],
+    "uid" : "08109c51417f4d746fc96bca53e55630"
+  } ]
+}
