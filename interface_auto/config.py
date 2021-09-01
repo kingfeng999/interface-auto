@@ -12,7 +12,7 @@ ABS_PATH = os.path.abspath(__file__)
 DIR_NAME = os.path.dirname(ABS_PATH)
 
 # header 头部信息
-HEADERS = {'Content-Type': 'application/json', 'device': '1', 'version':'2.17.0'}
+HEADERS = {'Content-Type': 'application/json', 'device': '1', 'version':'2.28.0'}
 
 # 登录接口传过来的 token 和 uid（onekey/100）
 LOGIN_TOKEN = None
