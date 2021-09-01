@@ -6,5 +6,3 @@
 # 忽略上传 reports 文件下的文件
 reports/*
 
-venv/
-
