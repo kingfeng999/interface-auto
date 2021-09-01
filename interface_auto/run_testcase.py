@@ -17,12 +17,14 @@ testpaths = ./testcase
 python_files = test_*.py
 python_classes = Test*
 python_function = test_*
-log_cli = 1        指的是：可以同时在 Terminal 终端下打印日志
+log_cli = 1        指的是：可以同时在 Terminal 终端下打印日志！
 
 脚本运行：		pytest -sv ./testcase/test_login.py --alluredir ./reports/ringle
 allure 启动：	allure generate ./reports/ringle -o ./reports/ring_rep --clean
 
 '''
+
+
 
 
 if __name__ == '__main__':
