@@ -7,13 +7,13 @@
       "name" : "正常登录场景",
       "children" : [ {
         "name" : "用户能正常登录",
-        "uid" : "944b488d93177aaa",
+        "uid" : "81bd0797f627097",
         "parentUid" : "b270936b4e6d24bcd8459d84ad61dfc2",
         "status" : "passed",
         "time" : {
-          "start" : 1627113360500,
-          "stop" : 1627113360777,
-          "duration" : 277
+          "start" : 1630488910025,
+          "stop" : 1630488910076,
+          "duration" : 51
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -27,13 +27,13 @@
       "name" : "正常获取场景",
       "children" : [ {
         "name" : "用户能正常获取",
-        "uid" : "1d85df4a43335282",
+        "uid" : "4644eaf8b77f60c5",
         "parentUid" : "476c7789f7c39f2b24a0ce291ffb5960",
-        "status" : "passed",
+        "status" : "failed",
         "time" : {
-          "start" : 1627113360779,
-          "stop" : 1627113360828,
-          "duration" : 49
+          "start" : 1630488910078,
+          "stop" : 1630488910114,
+          "duration" : 36
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -47,13 +47,13 @@
       "name" : "正常充值场景",
       "children" : [ {
         "name" : "用户能正常充值",
-        "uid" : "7f6c259260f29bbd",
+        "uid" : "ff71b76c306a00a0",
         "parentUid" : "ec4f5f7d05640deea534cdc098f8695e",
-        "status" : "passed",
+        "status" : "failed",
         "time" : {
-          "start" : 1627113360831,
-          "stop" : 1627113361422,
-          "duration" : 591
+          "start" : 1630488910256,
+          "stop" : 1630488910299,
+          "duration" : 43
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -67,13 +67,13 @@
       "name" : "正常发送场景",
       "children" : [ {
         "name" : "用户能正常接收验证码",
-        "uid" : "e22cd7884f4c45aa",
+        "uid" : "ac07c058c30e0f02",
         "parentUid" : "83a061682a35a64653c4ada7517640b4",
-        "status" : "passed",
+        "status" : "failed",
         "time" : {
-          "start" : 1627113361424,
-          "stop" : 1627113361846,
-          "duration" : 422
+          "start" : 1630488910312,
+          "stop" : 1630488910349,
+          "duration" : 37
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -87,13 +87,13 @@
       "name" : "查询支付验证码场景",
       "children" : [ {
         "name" : "用户支付验证码状态正确",
-        "uid" : "16fdbf2c5905aba6",
+        "uid" : "ed96f2e8b3f5f192",
         "parentUid" : "d204af9b36275e53a9a70a2a2f1b252e",
-        "status" : "passed",
+        "status" : "failed",
         "time" : {
-          "start" : 1627113361848,
-          "stop" : 1627113361891,
-          "duration" : 43
+          "start" : 1630488910354,
+          "stop" : 1630488910392,
+          "duration" : 38
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -107,13 +107,13 @@
       "name" : "获取公司信息验证场景",
       "children" : [ {
         "name" : "用户能正常获取公司信息",
-        "uid" : "e201351f51e141a3",
+        "uid" : "959a644cf2e91f2",
         "parentUid" : "6adc02bec9720b1edd64bbaf61a2280e",
         "status" : "passed",
         "time" : {
-          "start" : 1627113361893,
-          "stop" : 1627113361990,
-          "duration" : 97
+          "start" : 1630488910398,
+          "stop" : 1630488910457,
+          "duration" : 59
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -127,13 +127,13 @@
       "name" : "发布标准极速岗场景",
       "children" : [ {
         "name" : "能正常发布标准极速岗位",
-        "uid" : "adc0cf5bfca29075",
+        "uid" : "80684a6aa2630308",
         "parentUid" : "ece65323bce116cb27ceb3e300b1ad6b",
         "status" : "failed",
         "time" : {
-          "start" : 1627113361992,
-          "stop" : 1627113362092,
-          "duration" : 100
+          "start" : 1630488910459,
+          "stop" : 1630488910515,
+          "duration" : 56
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -147,13 +147,13 @@
       "name" : "用户注册正常",
       "children" : [ {
         "name" : "用户能正常注册",
-        "uid" : "a26cb1f605e4cb8c",
+        "uid" : "b6b8084a1336d02",
         "parentUid" : "5d53850b0975bd1a5973c4b4aab2b81a",
         "status" : "passed",
         "time" : {
-          "start" : 1627113362241,
-          "stop" : 1627113362436,
-          "duration" : 195
+          "start" : 1630488910519,
+          "stop" : 1630488910736,
+          "duration" : 217
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -167,13 +167,13 @@
       "name" : "支付验证码验证场景",
       "children" : [ {
         "name" : "用户能输入验证码验证正确",
-        "uid" : "edd4721eec128177",
+        "uid" : "908618c9481e3754",
         "parentUid" : "fe40e18adb14729969e20f8f9dbd2a89",
-        "status" : "passed",
+        "status" : "failed",
         "time" : {
-          "start" : 1627113362438,
-          "stop" : 1627113364125,
-          "duration" : 1687
+          "start" : 1630488910739,
+          "stop" : 1630488911284,
+          "duration" : 545
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -187,12 +187,12 @@
       "name" : "正常退出场景",
       "children" : [ {
         "name" : "用户能正常退出登录",
-        "uid" : "ca34a53f061d2eaa",
+        "uid" : "351bfc8db787ab9a",
         "parentUid" : "c36e5613cfb1e38f753ce786f9bad341",
         "status" : "passed",
         "time" : {
-          "start" : 1627113364130,
-          "stop" : 1627113364170,
+          "start" : 1630488911292,
+          "stop" : 1630488911332,
           "duration" : 40
         },
         "flaky" : false,

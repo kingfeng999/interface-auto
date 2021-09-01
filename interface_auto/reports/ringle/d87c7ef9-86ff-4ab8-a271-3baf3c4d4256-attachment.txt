@@ -1,4 +1,0 @@
-INFO     root:apiGetCompanyInfo.py:23 ---------------开始获取公司信息接口的 URL 地址：----------------
-INFO     root:apiGetCompanyInfo.py:25 获取公司信息接口的 URL 地址是：https://gateway-test.svc.kouling.cn/job/100/
-INFO     root:apiGetCompanyInfo.py:35 准备发起获取公司信息接口的请求，请求的 json 参数是：{'pageno': 1, 'pagenum': 1, 'token': '82598f22cbdbabbd6d44569a6c6f39a6', 'uid': '1LtqNXWMmzvd4GGBsySC3fAfs7qsvrMiNJ'}，header 信息是：{'Content-Type': 'application/json', 'device': '1', 'version': '2.17.0'}
-INFO     root:apiGetCompanyInfo.py:38 获取的响应值是：{'ok': True, 'data': [{'company_id': '172', 'company_logo': 'http://cdn3.ringleai.com/media/pic/fbbc56b08a65b2fe8b7e9881a9d3ab35.jpg', 'company_name': '年贸', 'isdefault': 1, 'introduction': None, 'status': 1}], 'reason': '', 'message': None}

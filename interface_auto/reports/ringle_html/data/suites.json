@@ -9,13 +9,13 @@
         "name" : "TestLogin",
         "children" : [ {
           "name" : "用户能正常登录",
-          "uid" : "944b488d93177aaa",
+          "uid" : "81bd0797f627097",
           "parentUid" : "a78be7069c22cb24448c5bc447c4aec6",
           "status" : "passed",
           "time" : {
-            "start" : 1627113360500,
-            "stop" : 1627113360777,
-            "duration" : 277
+            "start" : 1630488910025,
+            "stop" : 1630488910076,
+            "duration" : 51
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -29,13 +29,13 @@
         "name" : "TestGetBankList",
         "children" : [ {
           "name" : "用户能正常获取",
-          "uid" : "1d85df4a43335282",
+          "uid" : "4644eaf8b77f60c5",
           "parentUid" : "2f7481c9367c4191d7443fa31c4f8602",
-          "status" : "passed",
+          "status" : "failed",
           "time" : {
-            "start" : 1627113360779,
-            "stop" : 1627113360828,
-            "duration" : 49
+            "start" : 1630488910078,
+            "stop" : 1630488910114,
+            "duration" : 36
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -49,13 +49,13 @@
         "name" : "TestUnionPayCard",
         "children" : [ {
           "name" : "用户能正常充值",
-          "uid" : "7f6c259260f29bbd",
+          "uid" : "ff71b76c306a00a0",
           "parentUid" : "17d69fcb5f062968aa1964e9be542f9c",
-          "status" : "passed",
+          "status" : "failed",
           "time" : {
-            "start" : 1627113360831,
-            "stop" : 1627113361422,
-            "duration" : 591
+            "start" : 1630488910256,
+            "stop" : 1630488910299,
+            "duration" : 43
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -69,13 +69,13 @@
         "name" : "TestSendMessageCode",
         "children" : [ {
           "name" : "用户能正常接收验证码",
-          "uid" : "e22cd7884f4c45aa",
+          "uid" : "ac07c058c30e0f02",
           "parentUid" : "ae167ab25e9c8815e2513e58bbe8c05f",
-          "status" : "passed",
+          "status" : "failed",
           "time" : {
-            "start" : 1627113361424,
-            "stop" : 1627113361846,
-            "duration" : 422
+            "start" : 1630488910312,
+            "stop" : 1630488910349,
+            "duration" : 37
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -89,13 +89,13 @@
         "name" : "TestPayStatus",
         "children" : [ {
           "name" : "用户支付验证码状态正确",
-          "uid" : "16fdbf2c5905aba6",
+          "uid" : "ed96f2e8b3f5f192",
           "parentUid" : "f54a0f71b856ff742dfae8009ea50973",
-          "status" : "passed",
+          "status" : "failed",
           "time" : {
-            "start" : 1627113361848,
-            "stop" : 1627113361891,
-            "duration" : 43
+            "start" : 1630488910354,
+            "stop" : 1630488910392,
+            "duration" : 38
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -109,13 +109,13 @@
         "name" : "TestGetCompanyInfo",
         "children" : [ {
           "name" : "用户能正常获取公司信息",
-          "uid" : "e201351f51e141a3",
+          "uid" : "959a644cf2e91f2",
           "parentUid" : "8382a3c016574c154dd8a22db99e800b",
           "status" : "passed",
           "time" : {
-            "start" : 1627113361893,
-            "stop" : 1627113361990,
-            "duration" : 97
+            "start" : 1630488910398,
+            "stop" : 1630488910457,
+            "duration" : 59
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -129,13 +129,13 @@
         "name" : "TestAddJob",
         "children" : [ {
           "name" : "能正常发布标准极速岗位",
-          "uid" : "adc0cf5bfca29075",
+          "uid" : "80684a6aa2630308",
           "parentUid" : "66b90547d804952903419d568553dfc0",
           "status" : "failed",
           "time" : {
-            "start" : 1627113361992,
-            "stop" : 1627113362092,
-            "duration" : 100
+            "start" : 1630488910459,
+            "stop" : 1630488910515,
+            "duration" : 56
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -149,13 +149,13 @@
         "name" : "TestRegistered",
         "children" : [ {
           "name" : "用户能正常注册",
-          "uid" : "a26cb1f605e4cb8c",
+          "uid" : "b6b8084a1336d02",
           "parentUid" : "984fbe0ff80b2352ca91940ccaf96ed4",
           "status" : "passed",
           "time" : {
-            "start" : 1627113362241,
-            "stop" : 1627113362436,
-            "duration" : 195
+            "start" : 1630488910519,
+            "stop" : 1630488910736,
+            "duration" : 217
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -169,13 +169,13 @@
         "name" : "TestWriteSmeMessage",
         "children" : [ {
           "name" : "用户能输入验证码验证正确",
-          "uid" : "edd4721eec128177",
+          "uid" : "908618c9481e3754",
           "parentUid" : "9298f89f144f7c6c9b2c3cf214170c4f",
-          "status" : "passed",
+          "status" : "failed",
           "time" : {
-            "start" : 1627113362438,
-            "stop" : 1627113364125,
-            "duration" : 1687
+            "start" : 1630488910739,
+            "stop" : 1630488911284,
+            "duration" : 545
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -189,12 +189,12 @@
         "name" : "TestLogout",
         "children" : [ {
           "name" : "用户能正常退出登录",
-          "uid" : "ca34a53f061d2eaa",
+          "uid" : "351bfc8db787ab9a",
           "parentUid" : "a2fcc11a3fe3d72995cce1a5ea2e19ec",
           "status" : "passed",
           "time" : {
-            "start" : 1627113364130,
-            "stop" : 1627113364170,
+            "start" : 1630488911292,
+            "stop" : 1630488911332,
             "duration" : 40
           },
           "flaky" : false,

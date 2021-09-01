@@ -1,4 +1,0 @@
-INFO     root:apiWriteSmsMessage.py:22 --------------开始获取验证支付短信接口的 URL 地址：---------------
-INFO     root:apiWriteSmsMessage.py:24 发送支付短信接口的 URL 地址是：https://api3.kouling.cn:14000/ringle/pay/127/
-INFO     root:apiWriteSmsMessage.py:34 准备发起验证支付短信接口的请求，请求的 json 参数是：{'token': '82598f22cbdbabbd6d44569a6c6f39a6', 'tx_id': '6ea88a45af904f3e810a6a1cfc180fe8', 'uid': '1LtqNXWMmzvd4GGBsySC3fAfs7qsvrMiNJ', 'sms_token': '111111'}，header 信息是：{'Content-Type': 'application/json', 'device': '1', 'version': '2.17.0'}
-INFO     root:apiWriteSmsMessage.py:37 获取的响应值是：{'data': [], 'ok': True, 'reason': ''}

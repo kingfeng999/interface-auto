@@ -1,1 +1,10 @@
 .idea
+
+# 忽略上传 log 日志
+*.log
+
+# 忽略上传 reports 文件下的文件
+reports/*
+
+venv/
+
