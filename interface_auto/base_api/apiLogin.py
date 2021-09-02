@@ -7,7 +7,6 @@
 '''
     登录接口的封装
 '''
-
 import requests
 import interface_auto.config
 from interface_auto.tools.logger import GetLogger
@@ -38,6 +37,12 @@ class Api_Login():
         r = resp.json()
         logger.info(f'获取的响应值是：{r}')
 
+        '''
+            以下代码是打印调试用
+        '''
+        # print(f"请求结果是：\n{r}")
+        # print("请求结果是：\n{}".format(r))
+
         # 返回数据是字典，可以用 get('data') 或 ['data'] 方式进行获取
         data = r.get('data')
         for i in data:
@@ -46,3 +51,7 @@ class Api_Login():
             interface_auto.config.LOGIN_UID = i['uid']
 
         return r
+
+if __name__ == '__main__':
+    login = Api_Login()
+    login.login_success()

@@ -9,13 +9,13 @@
         "name" : "TestLogin",
         "children" : [ {
           "name" : "用户能正常登录",
-          "uid" : "e51998d59594ad7",
+          "uid" : "772a74833f9307f2",
           "parentUid" : "a78be7069c22cb24448c5bc447c4aec6",
           "status" : "passed",
           "time" : {
-            "start" : 1630573603976,
-            "stop" : 1630573604029,
-            "duration" : 53
+            "start" : 1630576267988,
+            "stop" : 1630576268053,
+            "duration" : 65
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -29,13 +29,13 @@
         "name" : "TestLogout",
         "children" : [ {
           "name" : "用户能正常退出登录",
-          "uid" : "211e784f7aa25da4",
+          "uid" : "ee82026e6163a7e1",
           "parentUid" : "a2fcc11a3fe3d72995cce1a5ea2e19ec",
           "status" : "passed",
           "time" : {
-            "start" : 1630573604031,
-            "stop" : 1630573604104,
-            "duration" : 73
+            "start" : 1630576268055,
+            "stop" : 1630576268100,
+            "duration" : 45
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -49,12 +49,12 @@
         "name" : "TestRegistered",
         "children" : [ {
           "name" : "用户能正常注册",
-          "uid" : "eb579e440b15e851",
+          "uid" : "5eff6a2c0e1f7ee",
           "parentUid" : "984fbe0ff80b2352ca91940ccaf96ed4",
           "status" : "skipped",
           "time" : {
-            "start" : 1630573604111,
-            "stop" : 1630573604111,
+            "start" : 1630576268102,
+            "stop" : 1630576268102,
             "duration" : 0
           },
           "flaky" : false,

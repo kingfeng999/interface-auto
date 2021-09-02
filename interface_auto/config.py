@@ -4,6 +4,10 @@
 # @File: config.py
 # @Software: PyCharm
 
+"""
+    动态传参的配置文件，包括请求头，token，uid 等等
+"""
+
 import os
 
 
