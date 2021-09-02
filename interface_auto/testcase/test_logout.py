@@ -18,7 +18,7 @@ class TestLogout():
     @allure.title('用户能正常退出登录')
     @allure.severity('Critical')
     @allure.issue('https://pms.kouling.cn/index.php?m=bug&f=browse&productID=1', '--> 如果执行失败，这里可以提交 Bug 到禅道')
-    @pytest.mark.last           # 可以使退出登录用例最后一个执行
+    # @pytest.mark.last           # 可以使退出登录用例最后一个执行
     def test_logout(self):
         '''
         用户退出登录的测试用例

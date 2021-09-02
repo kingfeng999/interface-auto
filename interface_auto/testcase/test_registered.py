@@ -10,6 +10,7 @@
 '''
 from interface_auto.base_api.apiRegistered import ApiRegistered
 import allure
+import pytest
 
 class TestRegistered():
     '''
@@ -27,6 +28,7 @@ class TestRegistered():
     @allure.title('用户能正常注册')
     @allure.issue('https://pms.kouling.cn/index.php?m=bug&f=browse&productID=1', '--> 如果执行失败，这里可以提交 Bug 到禅道')
     @allure.severity('Blocker')
+    @pytest.mark.skip    # 此用例跳过不执行
     def test_registered(self):
         '''
         用户注册的测试用例

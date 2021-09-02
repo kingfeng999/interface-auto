@@ -28,7 +28,7 @@ class TestLogin():
     @allure.title('用户能正常登录')
     @allure.severity('Critical')
     @allure.issue('https://pms.kouling.cn/index.php?m=bug&f=browse&productID=1','--> 如果执行失败，这里可以提交 Bug 到禅道')
-    @pytest.mark.run(order = 1)     # 让登录用例默认第一步执行
+    # @pytest.mark.run(order = 1)     # 让登录用例默认第一步执行
     def test_login(self):
         '''
         用户登录的测试用例

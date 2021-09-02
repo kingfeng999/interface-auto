@@ -1,101 +1,31 @@
 [ {
-  "uid" : "9b6f3305694eea73",
-  "name" : "用户能正常接收验证码",
-  "time" : {
-    "start" : 1630490468892,
-    "stop" : 1630490468941,
-    "duration" : 49
-  },
-  "status" : "failed",
-  "severity" : "critical"
-}, {
-  "uid" : "921955a0edcff917",
-  "name" : "用户支付验证码状态正确",
-  "time" : {
-    "start" : 1630490468946,
-    "stop" : 1630490468981,
-    "duration" : 35
-  },
-  "status" : "failed",
-  "severity" : "critical"
-}, {
-  "uid" : "bcbc75aa01870c34",
-  "name" : "用户能正常获取公司信息",
-  "time" : {
-    "start" : 1630490468988,
-    "stop" : 1630490469082,
-    "duration" : 94
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "bed8d7002c6796",
-  "name" : "用户能正常充值",
-  "time" : {
-    "start" : 1630490468853,
-    "stop" : 1630490468888,
-    "duration" : 35
-  },
-  "status" : "failed",
-  "severity" : "critical"
-}, {
-  "uid" : "3b78f87272678aff",
-  "name" : "用户能正常登录",
-  "time" : {
-    "start" : 1630490468597,
-    "stop" : 1630490468669,
-    "duration" : 72
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "b85027cf47ed0180",
-  "name" : "能正常发布标准极速岗位",
-  "time" : {
-    "start" : 1630490469085,
-    "stop" : 1630490469145,
-    "duration" : 60
-  },
-  "status" : "failed",
-  "severity" : "critical"
-}, {
-  "uid" : "7bcc212cb3bacb8e",
-  "name" : "用户能输入验证码验证正确",
-  "time" : {
-    "start" : 1630490469283,
-    "stop" : 1630490469845,
-    "duration" : 562
-  },
-  "status" : "failed",
-  "severity" : "critical"
-}, {
-  "uid" : "c7fa3521f3159d67",
+  "uid" : "eb579e440b15e851",
   "name" : "用户能正常注册",
   "time" : {
-    "start" : 1630490469149,
-    "stop" : 1630490469279,
-    "duration" : 130
+    "start" : 1630573604111,
+    "stop" : 1630573604111,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "skipped",
   "severity" : "blocker"
 }, {
-  "uid" : "d55f7829caa901ce",
-  "name" : "用户能正常退出登录",
+  "uid" : "e51998d59594ad7",
+  "name" : "用户能正常登录",
   "time" : {
-    "start" : 1630490469865,
-    "stop" : 1630490469913,
-    "duration" : 48
+    "start" : 1630573603976,
+    "stop" : 1630573604029,
+    "duration" : 53
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "7a2e88d279fcec8a",
-  "name" : "用户能正常获取",
+  "uid" : "211e784f7aa25da4",
+  "name" : "用户能正常退出登录",
   "time" : {
-    "start" : 1630490468671,
-    "stop" : 1630490468712,
-    "duration" : 41
+    "start" : 1630573604031,
+    "stop" : 1630573604104,
+    "duration" : 73
   },
-  "status" : "failed",
+  "status" : "passed",
   "severity" : "critical"
 } ]

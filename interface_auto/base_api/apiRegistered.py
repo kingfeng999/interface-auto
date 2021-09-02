@@ -39,7 +39,7 @@ class ApiRegistered():
             "hwid": "53691be5167946f8a6624e3d1f1ffc6f",
             "device": "1",
             "devname": "HONOR HWYAL",
-            "ver": "2.17.0"
+            "ver": "2.28.0"
         }
         logger.info('准备发起注册接口的请求，请求参数是：{}，header 信息是：{}'.format(json, interface_auto.config.HEADERS))
         resp = requests.post(self.registered_url, json = json, headers = interface_auto.config.HEADERS)

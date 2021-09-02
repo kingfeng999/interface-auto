@@ -25,8 +25,6 @@ allure 启动：	allure generate ./reports/ringle -o ./reports/ring_rep --clean
 '''
 
 
-
-
 if __name__ == '__main__':
     # pytest 运行测试用例的命令
     pytest.main(['-sv', './testcase/', '--alluredir=./reports/ringle', '--clean-alluredir'])
