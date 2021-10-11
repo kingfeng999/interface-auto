@@ -1,0 +1,90 @@
+{
+  "uid" : "9a9eaf30a0cfabf5",
+  "name" : "用户能正常注册",
+  "fullName" : "testcase.test_registered.TestRegistered#test_registered",
+  "historyId" : "82904c4b8435edfea175431d42e83f02",
+  "time" : {
+    "start" : 1632901080152,
+    "stop" : 1632901080152,
+    "duration" : 0
+  },
+  "description" : "\n        用户注册的测试用例\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    用户注册的测试用例\n    :return:\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('E:\\\\python_script\\\\interface-auto\\\\interface_auto\\\\testcase\\\\test_registered.py', 26, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1632901079212,
+      "stop" : 1632901079299,
+      "duration" : 87
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用户注册正常"
+  }, {
+    "name" : "feature",
+    "value" : "注册功能"
+  }, {
+    "name" : "severity",
+    "value" : "Blocker"
+  }, {
+    "name" : "tag",
+    "value" : "skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_registered"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegistered"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NUIQLJ5"
+  }, {
+    "name" : "thread",
+    "value" : "190836-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_registered"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "--> 如果执行失败，这里可以提交 Bug 到禅道",
+    "url" : "https://pms.kouling.cn/index.php?m=bug&f=browse&productID=1",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "skip" ]
+  },
+  "source" : "9a9eaf30a0cfabf5.json",
+  "parameterValues" : [ ]
+}

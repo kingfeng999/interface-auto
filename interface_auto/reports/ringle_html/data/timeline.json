@@ -4,45 +4,45 @@
   "children" : [ {
     "name" : "DESKTOP-NUIQLJ5",
     "children" : [ {
-      "name" : "19316-MainThread",
+      "name" : "190836-MainThread",
       "children" : [ {
-        "name" : "用户能正常退出登录",
-        "uid" : "ee82026e6163a7e1",
-        "parentUid" : "ec729881282b6b0dff84b62d0935931f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1630576268055,
-          "stop" : 1630576268100,
-          "duration" : 45
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "用户能正常注册",
-        "uid" : "5eff6a2c0e1f7ee",
-        "parentUid" : "ec729881282b6b0dff84b62d0935931f",
+        "uid" : "9a9eaf30a0cfabf5",
+        "parentUid" : "f5c2c0065673bae6be1ce0a5adbe5739",
         "status" : "skipped",
         "time" : {
-          "start" : 1630576268102,
-          "stop" : 1630576268102,
+          "start" : 1632901080152,
+          "stop" : 1632901080152,
           "duration" : 0
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "用户能正常登录",
-        "uid" : "772a74833f9307f2",
-        "parentUid" : "ec729881282b6b0dff84b62d0935931f",
+        "name" : "用户能正常退出登录",
+        "uid" : "c5d0e88218422eb9",
+        "parentUid" : "f5c2c0065673bae6be1ce0a5adbe5739",
         "status" : "passed",
         "time" : {
-          "start" : 1630576267988,
-          "stop" : 1630576268053,
-          "duration" : 65
+          "start" : 1632901080099,
+          "stop" : 1632901080145,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用户能正常登录",
+        "uid" : "7f1c552131718986",
+        "parentUid" : "f5c2c0065673bae6be1ce0a5adbe5739",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632901079302,
+          "stop" : 1632901080097,
+          "duration" : 795
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ec729881282b6b0dff84b62d0935931f"
+      "uid" : "f5c2c0065673bae6be1ce0a5adbe5739"
     } ],
     "uid" : "52aec6ae286bb7160c3926d1188a91ec"
   } ]

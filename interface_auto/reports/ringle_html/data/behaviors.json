@@ -7,13 +7,13 @@
       "name" : "正常登录场景",
       "children" : [ {
         "name" : "用户能正常登录",
-        "uid" : "772a74833f9307f2",
+        "uid" : "7f1c552131718986",
         "parentUid" : "b270936b4e6d24bcd8459d84ad61dfc2",
         "status" : "passed",
         "time" : {
-          "start" : 1630576267988,
-          "stop" : 1630576268053,
-          "duration" : 65
+          "start" : 1632901079302,
+          "stop" : 1632901080097,
+          "duration" : 795
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -27,13 +27,13 @@
       "name" : "正常退出场景",
       "children" : [ {
         "name" : "用户能正常退出登录",
-        "uid" : "ee82026e6163a7e1",
+        "uid" : "c5d0e88218422eb9",
         "parentUid" : "c36e5613cfb1e38f753ce786f9bad341",
         "status" : "passed",
         "time" : {
-          "start" : 1630576268055,
-          "stop" : 1630576268100,
-          "duration" : 45
+          "start" : 1632901080099,
+          "stop" : 1632901080145,
+          "duration" : 46
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -47,12 +47,12 @@
       "name" : "用户注册正常",
       "children" : [ {
         "name" : "用户能正常注册",
-        "uid" : "5eff6a2c0e1f7ee",
+        "uid" : "9a9eaf30a0cfabf5",
         "parentUid" : "5d53850b0975bd1a5973c4b4aab2b81a",
         "status" : "skipped",
         "time" : {
-          "start" : 1630576268102,
-          "stop" : 1630576268102,
+          "start" : 1632901080152,
+          "stop" : 1632901080152,
           "duration" : 0
         },
         "flaky" : false,

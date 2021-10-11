@@ -1,13 +1,13 @@
 "Status","Name","Duration in ms","Description"
-"passed","testcase.test_logout.TestLogout#test_logout","45","
-        用户退出登录的测试用例
-        :return:
-        "
 "skipped","testcase.test_registered.TestRegistered#test_registered","0","
         用户注册的测试用例
         :return:
         "
-"passed","testcase.test_login.TestLogin#test_login","65","
+"passed","testcase.test_logout.TestLogout#test_logout","46","
+        用户退出登录的测试用例
+        :return:
+        "
+"passed","testcase.test_login.TestLogin#test_login","795","
         用户登录的测试用例
         :return:
         "
