@@ -25,9 +25,14 @@ allure 启动：	allure generate ./reports/ringle -o ./reports/ring_rep --clean
 '''
 
 
-if __name__ == '__main__':
-    # pytest 运行测试用例的命令
-    pytest.main(['-sv', './testcase/', '--alluredir=./reports/ringle', '--clean-alluredir'])
-
-    # subprocess: 把在终端操作的命令行转移到 python 文件中操作,shell=True 接收这个命令，并以 shell 脚本的形式运行
-    subprocess.call('allure generate ./reports/ringle -o ./reports/ringle_html/ --clean', shell = True)
+# if __name__ == '__main__':
+#     # pytest 运行测试用例的命令
+#     pytest.main(['-sv', './testcase/', '--alluredir=./reports/ringle', '--clean-alluredir'])
+#
+#     # subprocess: 把在终端操作的命令行转移到 python 文件中操作,shell=True 接收这个命令，并以 shell 脚本的形式运行
+#     subprocess.call('allure generate ./reports/ringle -o ./reports/ringle_html/ --clean', shell = True)
+#
+    
+    
+    
+    

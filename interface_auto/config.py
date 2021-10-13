@@ -5,7 +5,7 @@
 # @Software: PyCharm
 
 """
-    动态传参的配置文件，包括请求头，token，uid 等等
+    动态传参的公共配置文件，包括请求头，token，uid 等等
 """
 
 import os
